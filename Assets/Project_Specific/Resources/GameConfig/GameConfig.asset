@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7d550307b26184bba9e22e59b93a96, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  Gameplay:
+    Prefabs:
+      Cell: {fileID: 2738557049727880244, guid: c6929127b33d8934cb7868f3ed6847aa, type: 3}
+      Item: {fileID: 3659698116218818018, guid: b273c1bf223397940a1ab6b4617f0ebc, type: 3}
+    Field:
+      Draggable:
+        LerpSpeed: 20
+        DragOffset: {x: 0, y: 0, z: -0.7}
+        Layer:
+          serializedVersion: 2
+          m_Bits: 1
+        DragDistanceThreshold: 1.7
+      Cells:
+        PlacementOffset: {x: 0, y: -0.7, z: -0.03}
+      Items:
+        Item:
+          ItemLayer:
+            serializedVersion: 2
+            m_Bits: 64
+          MoveTween:
+            Duration: 0.01
+            Ease: 1
+            Delay: 0
+          RevealTween:
+            Duration: 0.5
+            Ease:
+              serializedVersion: 2
+              m_Curve:
+              - serializedVersion: 3
+                time: 0
+                value: 0
+                inSlope: 3.562031
+                outSlope: 3.562031
+                tangentMode: 34
+                weightedMode: 0
+                inWeight: 0
+                outWeight: 0.33333334
+              - serializedVersion: 3
+                time: 0.3761899
+                value: 1.34
+                inSlope: 0.9804902
+                outSlope: 0.9804902
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0.33333334
+                outWeight: 0.15281263
+              - serializedVersion: 3
+                time: 0.6942714
+                value: 0.94
+                inSlope: -0.16647646
+                outSlope: -0.16647646
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0.33333334
+                outWeight: 0.1457167
+              - serializedVersion: 3
+                time: 1
+                value: 1
+                inSlope: 0.043076254
+                outSlope: 0.043076254
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0.16952708
+                outWeight: 0
+              m_PreInfinity: 2
+              m_PostInfinity: 2
+              m_RotationOrder: 4
+            Delay: 0
+        Scale:
+          Scale: {x: 1.1, y: 1.1, z: 1.1}
+          ScaleOut:
+            Duration: 0.2
+            Ease: 27
+            Delay: 0
+          ScaleIn:
+            Duration: 0.2
+            Ease: 27
+            Delay: 0
+        m_CardData:
+          m_KeyData: 00000000010000000200000003000000
+          m_ValueData:
+          - m_Cards:
+            - m_Type: 0
+              m_Number: 1
+              m_Icon: {fileID: 6153500867044405384, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 2
+              m_Icon: {fileID: -6998289401685166289, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 3
+              m_Icon: {fileID: -6935907897661383292, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 4
+              m_Icon: {fileID: -6201186673231459286, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 5
+              m_Icon: {fileID: 5310656561848160836, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 6
+              m_Icon: {fileID: -1881340340143154619, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 7
+              m_Icon: {fileID: 7024322981065430330, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 8
+              m_Icon: {fileID: 1190400994233322665, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 9
+              m_Icon: {fileID: -3221157921623613412, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 10
+              m_Icon: {fileID: 851111070779450602, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 11
+              m_Icon: {fileID: 5115363499111622777, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 12
+              m_Icon: {fileID: -3977336007471875889, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 0
+              m_Number: 12
+              m_Icon: {fileID: 4332171973135220870, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+          - m_Cards:
+            - m_Type: 1
+              m_Number: 1
+              m_Icon: {fileID: 3070081514474133141, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 2
+              m_Icon: {fileID: 6418937700509361424, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 3
+              m_Icon: {fileID: 4004309808024589223, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 4
+              m_Icon: {fileID: 6759867296267857381, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 5
+              m_Icon: {fileID: -119520297117539886, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 6
+              m_Icon: {fileID: 1834419237809405489, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 7
+              m_Icon: {fileID: 8897135396075854038, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 8
+              m_Icon: {fileID: 4969765950340357517, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 9
+              m_Icon: {fileID: -7488054431345936129, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 10
+              m_Icon: {fileID: 5879578704245784565, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 11
+              m_Icon: {fileID: -6729060599236668280, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 12
+              m_Icon: {fileID: 4134567901704659664, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 1
+              m_Number: 13
+              m_Icon: {fileID: 4488381179753990444, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+          - m_Cards:
+            - m_Type: 2
+              m_Number: 1
+              m_Icon: {fileID: 7359689825026554567, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 2
+              m_Icon: {fileID: -2919996605483181654, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 3
+              m_Icon: {fileID: 3328894448510124244, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 4
+              m_Icon: {fileID: 6042446714957450898, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 5
+              m_Icon: {fileID: -2035065891253322142, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 6
+              m_Icon: {fileID: -8307032929797233870, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 7
+              m_Icon: {fileID: 5155894568286401937, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 8
+              m_Icon: {fileID: -7136439821241763462, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 9
+              m_Icon: {fileID: -7778611115832178198, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 10
+              m_Icon: {fileID: -7932040771361617795, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 11
+              m_Icon: {fileID: 3627811494613981397, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 12
+              m_Icon: {fileID: -2398540999685866520, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 2
+              m_Number: 13
+              m_Icon: {fileID: 2282250848055317258, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+          - m_Cards:
+            - m_Type: 3
+              m_Number: 1
+              m_Icon: {fileID: -6459159049488634575, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 2
+              m_Icon: {fileID: 79237582114896758, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 3
+              m_Icon: {fileID: 1708117533754447479, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 4
+              m_Icon: {fileID: -1774710782587086274, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 5
+              m_Icon: {fileID: -3791531466321175595, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 6
+              m_Icon: {fileID: -8721534398043270087, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 7
+              m_Icon: {fileID: -1227255744822846553, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 8
+              m_Icon: {fileID: -5440591731002693722, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 9
+              m_Icon: {fileID: -7646077526491560624, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 10
+              m_Icon: {fileID: 6693427316318670134, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 11
+              m_Icon: {fileID: 3442161030516730308, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 12
+              m_Icon: {fileID: -655287078114118184, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
+            - m_Type: 3
+              m_Number: 13
+              m_Icon: {fileID: -660621029777466011, guid: e923c6082eef89646b87f3cce6960c60, type: 3}
